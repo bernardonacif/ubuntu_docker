@@ -24,3 +24,6 @@ docker exec -it ubuntu_dev bash
 3- Habilitar execução de scripts via bash:
 
 chmod +x setup.sh
+
+4- Executar o script update_and_install_python.sh
+
