@@ -1,0 +1,11 @@
+version: '3.4'
+services:
+  ubuntu-container:
+    container_name: ubuntu_dev
+    image: ubuntu
+    volumes:
+      - /home/USER_NAME/ubuntu_dev/shared_files:/shared_files
+    environment:
+      - TZ=America/Sao_Paulo
+    restart: always
+    tty: true
