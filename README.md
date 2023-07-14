@@ -27,3 +27,23 @@ chmod +x setup.sh
 
 4- Executar o script update_and_install_python.sh
 
+aqui o script caso queira executar direto na vias bash:
+
+5- criar ambiente virtual
+
+- intalar python venv:
+
+apt install python3.10-venv
+
+- definir diretorio da aplicação:
+
+cd caminho/do/diretorio
+
+- criar ambiente virtual
+
+python3 -m venv myenv
+
+- ativar o ambiente virtual
+
+source myenv/bin/activate
+
