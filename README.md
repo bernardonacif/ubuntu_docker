@@ -20,3 +20,7 @@ docker-compose exec ubuntu-container bash
 docker exec -it <nome_do_contêiner> bash
 
 docker exec -it ubuntu_dev bash
+
+3- Habilitar execução de scripts via bash:
+
+chmod +x setup.sh
